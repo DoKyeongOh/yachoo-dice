@@ -1,8 +1,0 @@
-[
-  {"type" : "MINOR", "score" : 5, "combination" : 11111},
-  {"type" : "MINOR", "score" : 10, "combination" : 22222},
-  {"type" : "MINOR", "score" : 15, "combination" : 33333},
-  {"type" : "MINOR", "score" : 20, "combination" : 44444},
-  {"type" : "MINOR", "score" : 25, "combination" : 55555},
-  {"type" : "MINOR", "score" : 30, "combination" : 66666}
-]
