@@ -1,8 +1,10 @@
-package com.example.yachoodice.score;
+package com.example.yachoodice.score.extractor;
+
+import com.example.yachoodice.score.ScoreExtractException;
 
 import java.util.List;
 
-public class SpecificCountScoreExtractor extends ScoreExtractor {
+public class SpecificCountScoreExtractor implements ScoreExtractor {
     private int count;
 
     public SpecificCountScoreExtractor(int count) {
@@ -10,9 +12,7 @@ public class SpecificCountScoreExtractor extends ScoreExtractor {
     }
 
     @Override
-    protected int extract(List<Integer> eyes) throws ScoreExtractException {
-        if (eyes.size() != EYES_SIZE)
-            throw new ScoreExtractException("bad input eyes size");
+    public int extract(List<Integer> eyes) {
         int sum = 0;
         int[] counts = new int[6];
         for (int eye : eyes) {

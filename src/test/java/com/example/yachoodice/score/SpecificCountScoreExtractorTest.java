@@ -1,6 +1,7 @@
 package com.example.yachoodice.score;
 
 
+import com.example.yachoodice.score.extractor.SpecificCountScoreExtractor;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;

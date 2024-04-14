@@ -1,5 +1,6 @@
 package com.example.yachoodice.score;
 
+import com.example.yachoodice.score.extractor.SameEyesScoreExtractor;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
